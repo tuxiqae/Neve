@@ -7,7 +7,7 @@
       enable = true;
       capabilities = "offsetEncoding =  'utf-16'";
       servers = {
-        terraform = {enable = true;};
+        terraformls = {enable = true;};
         tflint = {enable = true;};
         clangd = {enable = true;};
         lua-ls = {
