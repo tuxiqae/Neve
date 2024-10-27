@@ -38,11 +38,6 @@
         };
         prettier = {
           enable = true;
-          settings = ''
-            {
-              extra_args = { "--no-semi", "--single-quote" },
-            }
-          '';
         };
         google_java_format = {
           enable = true;
@@ -52,11 +47,6 @@
         };
         black = {
           enable = true;
-          settings = ''
-            {
-              extra_args = { "--fast" },
-            }
-          '';
         };
       };
     };
